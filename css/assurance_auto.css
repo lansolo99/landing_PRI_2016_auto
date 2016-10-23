@@ -403,7 +403,7 @@
     line-height: 20px;
 		}
 
-	#avantages .section .col.span_1_of_4 .contenu span sup{
+	#avantages .section .col.span_1_of_4 .contenu span sup, .wrapper.carre #avantages .section .col.span_1_of_2 .contenu span sup{
 		font-size: 7px;
 		top: -3px;
 	}
@@ -437,6 +437,7 @@
 
 	.wrapper.carre #avantages .section .col.span_1_of_2 .contenu{
 		margin-left:120px;
+		height:100px;
 	}
 
 	.wrapper.carre #avantages .section .col.span_1_of_2.e1 .contenu, .wrapper.carre #avantages .section .col.span_1_of_2.e2 .contenu{
