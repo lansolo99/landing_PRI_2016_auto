@@ -1,3 +1,15 @@
 #action a.button span i.chevron, #avantages a.button span i.chevron{
-	top:23px;
+	top:2px;
+}
+
+#action a.button.agence span i.chevron{
+	top:0px;
+}
+
+#avantages .section .col.span_1_of_4 {
+	width: 24%;
+}
+
+#avantages .section .col.span_1_of_4 .contenu{
+	margin: 30px 24px 20px 24px;
 }
