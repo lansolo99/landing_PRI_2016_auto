@@ -7,9 +7,13 @@
 }
 
 #avantages .section .col.span_1_of_4 {
-	width: 24%;
+	width: 25%;
 }
 
 #avantages .section .col.span_1_of_4 .contenu{
 	margin: 30px 24px 20px 24px;
+}
+
+.wrapper.bandeau #avantages .section .col.span_1_of_4.last{
+	width: 242px;
 }

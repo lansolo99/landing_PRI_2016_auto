@@ -356,6 +356,10 @@
 		background: #faf9f7;
 	}
 
+	.wrapper.bandeau #avantages .section{
+		height:170px;
+	}
+
 	#avantages .section{
 		margin-top: 0px;
 	}
@@ -372,6 +376,8 @@
 		background-repeat: no-repeat;
 		background-position: top center;
 	}
+
+	
 
 	#avantages .section .col.span_1_of_4 .contenu{
 		margin: 30px 25px 20px 25px;
