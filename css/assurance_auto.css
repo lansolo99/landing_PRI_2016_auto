@@ -1,0 +1,515 @@
+	/*********/
+	/* RESET */
+	/*********/
+
+	header, nav, footer, figure, section, article {display: block;}
+	html, body, span, object, iframe, h1, h2, h3, h4, h5, h6, a, em, font, img, strong, sub, sup, dl, dt, dd, ul, ol, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, p {margin: 0;	padding: 0;	border: 0;	outline: 0; text-decoration: none;}
+
+
+
+
+	/*********/
+	/* GENERAL */
+	/*********/
+
+
+	body {
+	  font-family: 'Arial', sans-serif;
+		height: 100%;
+		background-color: white;
+	}
+
+	/*  Modifs gabarit pri  */
+
+#n2g_conteneur_milieu{
+		padding-bottom: 0px;
+}
+
+
+	#n2g_zone_milieu{
+	margin-top: 0px;
+	}
+
+	#n2g_zone_centre{
+		padding-left: 0;
+		padding-right: 0;
+		width: 978px !important;
+		float:none;
+		height: auto !important;
+	}
+
+	a{
+	  text-decoration: underline;
+	}
+
+
+
+
+	/*BANDEAU*/
+
+	.wrapper{
+		background-color: #ffffff
+	}
+
+	#bandeau{
+	  position: relative;
+	  text-align: right;
+	  width: 978px;
+	  height: 235px;
+	  background: url('../images/theme.jpg') no-repeat;
+	}
+
+	#bandeau .intro{
+		position: absolute;
+		right:0;
+		top:30px;
+		text-align: center;
+		padding: 30px;
+	  color: #000000;
+		width:367px;
+		height: 122px;
+		background-color: #ffffff;
+	}
+
+	#bandeau .intro .titre_bordure{
+		display: block;
+		clear: both;
+		margin:auto;
+		width: 270px;
+		height: 33px;
+	}
+
+	#bandeau .intro .bordure{
+		display: block;
+		position: relative;
+		top:9px;
+		height:1px;
+		width:38px;
+		background-color: #cb2323;
+		float:left;
+		margin-right:15px;
+	}
+
+	#bandeau .intro .bordure.last{
+		margin-right:0px;
+		margin-left:15px;
+	}
+
+	#bandeau .intro h1{
+		text-transform: uppercase;
+		color: #cb2323;
+		font-weight: bold;
+		font-size: 17px;
+		margin-top:0px;
+		float:left;
+	}
+
+	#bandeau .intro h2{
+		text-transform: uppercase;
+		color: #000000;
+		font-weight: bold;
+		margin-top: 5px;
+		font-size: 26px;
+		line-height: 1.7em;
+	}
+
+		#bandeau .intro h2 sup{
+			position: relative;
+			top:-9px;
+			font-size: 0.5em;
+		}
+
+
+	/* ACTIONS */
+
+	#action{
+		text-align: center;
+		background-color: #ffffff;
+		padding: 25px 50px 50px 50px;
+	}
+
+	.wrapper.carre #action{
+		background-color: #efebea;
+		padding: 35px 50px 40px 50px;
+	}
+
+	#action .textGroup{
+		font-size:16px;
+		line-height: 24px;
+	}
+
+	#action .textGroup.chapo, #avantages .textGroup.chapo {
+		font-size:18px;
+		line-height: 30px;
+	}
+
+	#action .options{
+		margin: auto;
+		margin-top:0px;
+		width: 770px;
+	}
+
+
+	/*  SECTIONS  */
+	.section {
+		clear: both;
+		padding: 0px;
+		margin-top: 0px;
+	}
+
+	/*  COLUMN SETUP  */
+	.col {
+		display: block;
+		float:left;
+		margin: 1% 0 1% 1.6%;
+		color: #e60028;
+		text-transform: uppercase;
+	}
+	.col:first-child { margin-left: 0; }
+
+
+
+	/*  GROUPING  */
+	.group:before,
+	.group:after {
+		content:"";
+		display:table;
+	}
+	.group:after {
+		clear:both;
+	}
+	.group {
+	    zoom:1; /* For IE 6/7 */
+	}
+
+	/*  GRID */
+
+
+
+
+	/* Options */
+
+
+	#action .options .col {
+		margin: 0% 0 0% 0;
+	}
+
+	#action .options .col:first-child { margin-left: 0; }
+
+	#action .options .col.span_1_of_2 {
+		width: 50%;
+		font-size: 25px;
+		color: #000;
+		text-align: left;
+	}
+
+	#action .options .span_1_of_2.e1{
+		width: 384px;
+		border-right:1px solid #c9c9c9;
+	}
+
+	#action .options .span_1_of_2.e2{
+		width: 385px;
+	}
+
+	#action .options .span_1_of_2.e2 .contenu{
+		margin-left: 85px
+	}
+
+
+	#action .options .col span.label{
+		display: block;
+		width: 220px;
+		margin-bottom: 15px;
+		text-align: left;
+		text-transform: uppercase;
+		color: #333333;
+		font-size: 20px;
+		font-weight: normal;
+		line-height: 28px;
+		padding-left: 50px;
+	}
+
+
+	#action .options .col.span_1_of_2.e1 span.label{
+		background-image: url('../images/souscription_icon_telephone.png');
+		background-repeat: no-repeat;
+		background-position: 0px 10px;
+	}
+
+
+
+	#action .options .col.span_1_of_2.e2 span.label{
+		background-image: url('../images/souscription_icon_agence.png');
+		background-repeat: no-repeat;
+		background-position: 0px 10px;
+	}
+
+
+
+	#action .form input[type="text"]{
+		float:left;
+	  padding: 6px 10px;
+	  background-color: #fff;
+	  border-radius: 4px;
+	  box-shadow: none;
+		-webkit-appearance: none;
+	  -moz-appearance: none;
+	  appearance: none;
+		border: 1px solid #cccccc;
+	  outline: 0;
+		margin-bottom: 0;
+		border-radius: 0;
+		height: 46px;
+		width: 222px;
+		border-right: 0;
+		font-size: 15px;
+		color:#777;
+		font-style: italic;
+	}
+
+	#action .cta_group, #avantages .cta_group {
+		margin-top:25px;
+		height: 85px;
+	}
+
+	#action .enveloppe_cta, #avantages .enveloppe_cta{
+		margin:60px 0px 30px 0px;
+	}
+
+	#action a.button, #avantages a.button{
+		text-align: left;
+		margin-top: 20px;
+		width: auto;
+		font-size: 19px;
+		text-transform: uppercase;
+		color: #ffffff;
+		background-color: #cb2323;
+		border-radius:3px;
+		border-bottom: 2px solid #ad211b;
+		text-decoration: none;
+		padding: 22px 30px;
+		padding-right:70px;
+		cursor: pointer;
+	}
+
+	#action .form a.button.tel{
+		float:left;
+		width: auto;
+		margin-top: 0px;
+		font-size: 16px;
+		border-radius:0px;
+		padding:20px 16px;
+		text-align: center;
+	}
+
+	#action .form a.button.agence{
+		float:left;
+		width: 240px;
+		margin-top: 0px;
+		font-size: 16px;
+		border-radius:0px;
+		padding:20px 40px 20px 20px;
+		text-align: left;
+	}
+
+	#action a.button:hover, #avantages a.button:hover{
+		background-color: #ad211b;
+	}
+
+	#action a.button span, 	#avantages a.button span {
+		position: relative;
+		width:auto;
+	}
+
+	#action a.button span i.chevron, #avantages a.button span i.chevron{
+		position: absolute;
+		width: 10px;
+		height: 16px;
+		background: url('../images/chevron.png');
+		background-image: -webkit-image-set( url('../images/chevron.png') 1x, url('../images/chevron-2x.png') 2x );
+	  background-size: 100%;
+		right:-40px;
+		top:2px;
+	}
+
+
+
+
+	@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	  #action a.button span i.chevron{
+			top:23px;
+		}
+	}
+
+
+ 	/*AVANTAGES*/
+
+
+	/* A.Bandeau */
+
+	#avantages{
+		background: #faf9f7;
+	}
+
+	#avantages .section{
+		margin-top: 0px;
+	}
+
+	#avantages .section .col{
+		margin: 0% 0 1% 0%;
+		text-align: center;
+	}
+
+	#avantages .section .col.span_1_of_4 {
+		width: 25%;
+		background: url('../images/fleche_bas.png');
+		background-image: -webkit-image-set( url('../images/fleche_bas.png') 1x, url('../images/fleche_bas-2x.png') 2x );
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+
+	#avantages .section .col.span_1_of_4 .contenu{
+		margin: 30px 25px 20px 25px;
+	}
+
+	#avantages .section .col.span_1_of_4 .contenu strong, .wrapper.carre #avantages .section .col.span_1_of_2 .contenu strong{
+		font-size: 16px;
+		color: #1e709e;
+		line-height: 22px;
+	}
+
+	#avantages .section .col.span_1_of_4 .contenu strong sup, .wrapper.carre #avantages .section .col.span_1_of_2 .contenu strong sup{
+		font-size: 9px;
+		top: -5px;
+	}
+
+	#avantages .section .col.span_1_of_4 .contenu span, .wrapper.carre #avantages .section .col.span_1_of_2 .contenu span{
+		display: block;
+		text-transform:none;
+		font-size: 14px;
+		color: #333333;
+		margin-top: 10px;
+    line-height: 20px;
+		}
+
+	#avantages .section .col.span_1_of_4 .contenu span sup{
+		font-size: 7px;
+		top: -3px;
+	}
+
+
+	/* A.Carré */
+
+	.wrapper.carre #avantages{
+		text-align: center;
+		padding: 40px 70px;
+		background-color: #ffffff;
+	}
+
+	.wrapper.carre #avantages .textGroup.chapo{
+		margin-bottom: 50px;
+	}
+
+  .wrapper.carre #avantages .cta_group{
+		height: auto;
+		margin-top: 80px;
+	}
+
+	.wrapper.carre #avantages .section .col{
+		margin: 0% 0 0% 0%;
+		text-align: left;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2{
+		width: 50%;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2 .contenu{
+		margin-left:120px;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2.e1 .contenu, .wrapper.carre #avantages .section .col.span_1_of_2.e2 .contenu{
+		margin-bottom: 25px;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2.e3 .contenu, .wrapper.carre #avantages .section .col.span_1_of_2.e4 .contenu{
+		margin-top: 40px;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2.e1{
+		background-image: url('../images/avantages_picto_formalite.png');
+		background-repeat: no-repeat;
+		background-position: 44px 10px;
+		width: 418px;
+		border-right:1px solid #c9c9c9;
+		border-bottom:1px solid #c9c9c9;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2.e2{
+		background-image: url('../images/avantages_picto_depannage.png');
+		background-repeat: no-repeat;
+		background-position: 44px 10px;
+		border-bottom:1px solid #c9c9c9;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2.e3{
+		background-image: url('../images/avantages_picto_covoiturage.png');
+		background-repeat: no-repeat;
+		background-position: 44px 50px;
+		width: 418px;
+		border-right:1px solid #c9c9c9;
+	}
+
+	.wrapper.carre #avantages .section .col.span_1_of_2.e4{
+		background-image: url('../images/avantages_picto_assistance.png');
+		background-repeat: no-repeat;
+		background-position: 44px 50px;
+	}
+
+
+
+
+	/*MENTIONS LEGALES*/
+
+	#mentions_legales {
+	  padding: 30px;
+		padding-bottom: 10px;
+		font-size: 10px;
+	  color: #888888;
+		background: #ffffff;
+	}
+
+	#mentions_legales a{
+	  color: #666666;
+	}
+
+	#mentions_legales .mentions{
+		counter-reset: mention_count;
+	  margin-bottom: 10px;
+	}
+
+	#mentions_legales .mentions dt {
+		position: relative;
+	  padding: 0px 0 7px 0;
+	  padding-left: 25px;
+	  line-height: 15px;
+	}
+
+	#mentions_legales .mentions dt span{
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    *top:-5px;
+	    font-size: 10px;
+	}
+
+	#mentions_legales .mentions dt.last {
+	  margin-bottom: 0;
+	}
+
+
+		#mentions_legales .mentions.small{
+			font-size: 12px;
+			line-height: 16px;
+		}
