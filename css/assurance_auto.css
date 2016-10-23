@@ -270,7 +270,10 @@
 
 	#action .cta_group, #avantages .cta_group {
 		margin-top:25px;
-		height: 85px;
+		/* background-color: #378948; */
+		height: 105px;
+		zoom: 1;
+		clear:both;
 	}
 
 	#action .enveloppe_cta, #avantages .enveloppe_cta{
@@ -280,7 +283,9 @@
 	#action a.button, #avantages a.button{
 		text-align: left;
 		margin-top: 20px;
-		width: auto;
+		display: block;
+		width: 300px;
+		margin: auto;
 		font-size: 19px;
 		text-transform: uppercase;
 		color: #ffffff;
