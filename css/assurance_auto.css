@@ -250,6 +250,12 @@
 		background-position: 0px 10px;
 	}
 
+	.n2g_auto_carre #n2g_auto_action .n2g_auto_options .col.span_1_of_2.e1 span.n2g_auto_label,
+	.n2g_auto_carre #n2g_auto_action .n2g_auto_options .col.span_1_of_2.e2 span.n2g_auto_label
+	{
+		background: none;
+		padding-left: 0;
+	}
 
 #n2g_auto_action .n2g_auto_form{
 	height: 70px;
