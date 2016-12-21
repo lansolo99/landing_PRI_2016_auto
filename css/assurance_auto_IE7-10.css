@@ -1,19 +1,19 @@
-#action a.button span i.chevron, #avantages a.button span i.chevron{
+#n2g_auto_action a.n2g_auto_button span i.chevron, #n2g_auto_avantages a.n2g_auto_button span i.chevron{
 	top:2px;
 }
 
-#action a.button.agence span i.chevron{
+#n2g_auto_action a.n2g_auto_button.agence span i.chevron{
 	top:0px;
 }
 
-#avantages .section .col.span_1_of_4 {
+#n2g_auto_avantages .n2g_auto_section .col.span_1_of_4 {
 	width: 25%;
 }
 
-#avantages .section .col.span_1_of_4 .contenu{
+#n2g_auto_avantages .n2g_auto_section .col.span_1_of_4 .n2g_auto_contenu{
 	margin: 30px 24px 20px 24px;
 }
 
-.wrapper.bandeau #avantages .section .col.span_1_of_4.last{
+.n2g_auto_wrapper.n2g_auto_bandeau #n2g_auto_avantages .n2g_auto_section .col.span_1_of_4.last{
 	width: 242px;
 }
