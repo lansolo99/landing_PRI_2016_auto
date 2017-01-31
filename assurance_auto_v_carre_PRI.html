@@ -177,7 +177,7 @@
 	</div>
 
 		<div id="n2g_formulaire_de_recherche_connecte">
- 			<form id="n2g_formulaire_de_recherche_barre_navigation" method="post" n2g_auto_action="https://particuliers.secure.societegenerale.fr/com/resultats_recherche.html" onsubmit="javascript:return ngp_recherche(this);">
+ 			<form id="n2g_formulaire_de_recherche_barre_navigation" method="post" action="https://particuliers.secure.societegenerale.fr/com/resultats_recherche.html" onsubmit="javascript:return ngp_recherche(this);">
 				<label for="mots_cles" class="n2g_element_a_cacher">saisir un ou plusieurs mots-clés :</label>
 				<input id="mots_cles" name="chl_200_param_rech" type="text" class="input input_before_focus" value="Rechercher" onfocus="javascript:this.value=&#39;&#39;; this.className=&#39;input input_after_focus&#39;;" autocomplete="off">
 				<input type="hidden" name="url_1200_source">
@@ -253,8 +253,8 @@
 
 
 
-				<!---DEBUT LIVRAISON--->
 
+				<!---DEBUT LIVRAISON--->
 
 				<!-- CSS Auto -->
 				<script type="text/javascript"> var c_link = document.createElement('link'); c_link.setAttribute("href","css/assurance_auto.css"); c_link.setAttribute("rel","stylesheet"); c_link.setAttribute("type","text/css"); document.getElementsByTagName("head").item(0).appendChild(c_link); </script>
@@ -263,8 +263,10 @@
 				<!--[if IE 8 ]><script type="text/javascript"> var c_link = document.createElement('link'); c_link.setAttribute("href","css/assurance_auto_IE7-10.css"); c_link.setAttribute("rel","stylesheet"); c_link.setAttribute("type","text/css"); document.getElementsByTagName("head").item(0).appendChild(c_link); </script><![endif]-->
 				<!--[if IE 9 ]><script type="text/javascript"> var c_link = document.createElement('link'); c_link.setAttribute("href","css/assurance_auto_IE7-10.css"); c_link.setAttribute("rel","stylesheet"); c_link.setAttribute("type","text/css"); document.getElementsByTagName("head").item(0).appendChild(c_link); </script><![endif]-->
 
+
+
 				<!--Bandeau-->
-				<div class="n2g_auto_wrapper n2g_auto_bandeau">
+				<div class="n2g_auto_wrapper n2g_auto_carre">
 	        <div id="n2g_auto_bandeau">
 							<div class="n2g_auto_intro">
 								<div class="titre_bordure">
@@ -272,19 +274,61 @@
 									<div class="n2g_auto_titre"><h1>Assurance auto<sup>(1)</sup></h1></div>
 									<div class="n2g_auto_bordure last"></div>
 								</div>
-								<h2>Votre devis<br>personnalisé</h2>
+								<h2>Votre devis<br>en ligne</h2>
 							</div>
 					</div>
 
 
+				<!--Avantages-->
+
+			<div id="n2g_auto_avantages">
+				<div class="text_group chapo">
+					<strong>Pour connaître votre tarif personnalisé, vous pouvez réaliser un devis en ligne.</strong>
+				</div>
+
+
+				<div class="n2g_auto_section n2g_auto_group">
+					<div class="col span_1_of_2 e1">
+						<div class="n2g_auto_contenu">
+							<strong>PRISE EN CHARGE DES <br>FORMALITÉS DE RÉSILIATION</strong>
+							<span>Votre contrat a plus d’un an ? <br>Souscrivez immédiatement.</span>
+						</div>
+					</div>
+					<div class="col span_1_of_2 e2">
+						<div class="n2g_auto_contenu">
+							<strong>DÉPANNAGE EN MOINS<br> D’UNE HEURE</strong>
+							<span>Quel que soit l’endroit où vous <br>vous trouvez<sup>(2)</sup>.</span>
+						</div>
+					</div>
+					<div class="col span_1_of_2 e3">
+						<div class="n2g_auto_contenu">
+							<strong>COVOITURAGE ET <br>PRÊT DE VÉHICULE<sup>(3)</sup></strong>
+							<span>Des garanties incluses adaptées<br>à votre mode de vie.</span>
+						</div>
+					</div>
+					<div class="col span_1_of_2 e4">
+						<div class="n2g_auto_contenu">
+							<strong>ASSISTANCE 0 KM</strong>
+							<span>Une intervention 24h/24 et 7j/7.</span>
+						</div>
+					</div>
+					<div class="n2g_auto_clearForIE7"></div>
+				</div>
+
+
+				<div class="cta_group">
+						<a href="" xtclib="assurance_automobile::uc-auto-simulation _ souscrire" class="n2g_auto_button carre"><span>réaliser un devis<i class="chevron">&nbsp;</i></span></a>
+				</div>
+
+
+
+			</div>
+
+
+
 				<!--Action-->
 				<div id="n2g_auto_action">
-					<div class="text_group chapo">
-						<strong>Obtenez votre tarif personnalisé en quelques clics ou avec un Conseiller Société Générale.</strong>
-					</div>
-					<div class="cta_group">
-							<a href="" xtclib="" class="n2g_auto_button"><span>réaliser mon devis en ligne<i class="chevron">&nbsp;</i></span></a>
-					</div>
+
 
 					<div class="n2g_auto_options">
 							<div class="n2g_auto_section n2g_auto_group">
@@ -293,10 +337,9 @@
 										<span class="n2g_auto_label">Rappelez-moi pour<br>réaliser un devis</span>
 										<div class="n2g_auto_form">
 											<input class="numero" type="text" id="numero"   value="Indiquez votre n° de téléphone" onfocus="javascript:this.value=''; this.className='input input_after_focus';" maxlength=10>
-											<a href="#" class="n2g_auto_button tel" id="cta_" xtclib=""><span>OK</span></a>
-
+											<a href="#" class="n2g_auto_button tel" id="cta_" xtclib="assurance_automobile::uc-auto- simulation _WCB">OK</a>
 										</div>
-										<span class="horaires">Du lundi au vendredi de 8h à 22h et le samedi jusqu’à 20h</span>
+									<span class="horaires">Du lundi au vendredi de 8h à 19h et le samedi jusqu’à 20h</span>
 									</div>
 
 								</div>
@@ -304,43 +347,12 @@
 										<div class="n2g_auto_contenu">
 											<span class="n2g_auto_label">Réaliser mon devis<br>en agence</span>
 											<div class="n2g_auto_form">
-												<a href="#" class="n2g_auto_button agence" xtclib=""><span>Je prends rendez-vous<i class="chevron">&nbsp;</i></span></a>
+												<a href="#" class="n2g_auto_button agence" xtclib="assurance_automobile::uc-auto- simulation _RDV"><span>Je prends rendez-vous<i class="chevron">&nbsp;</i></span></a>
 											</div>
 										</div>
 								</div>
 								<div class="n2g_auto_clearForIE7"></div>
 							</div>
-					</div>
-				</div>
-
-				<!--Avantages-->
-
-				<div id="n2g_auto_avantages">
-					<div class="n2g_auto_section n2g_auto_group">
-						<div class="col span_1_of_4">
-							<div class="n2g_auto_contenu">
-								<strong>PRISE EN CHARGE DES FORMALITÉS DE RÉSILIATION</strong>
-								<span>Votre contrat a plus d’un an ? <br>Souscrivez immédiatement.</span>
-							</div>
-						</div>
-						<div class="col span_1_of_4">
-							<div class="n2g_auto_contenu">
-								<strong>DÉPANNAGE EN MOINS D’UNE HEURE</strong>
-								<span>Quel que soit l’endroit où vous <br>vous trouvez.<sup>(2)</sup></span>
-							</div>
-						</div>
-						<div class="col span_1_of_4">
-							<div class="n2g_auto_contenu">
-								<strong>COVOITURAGE ET PRÊT DE VÉHICULE<sup>(3)</sup></strong>
-								<span>Des garanties incluses adaptées<br>à votre mode de vie.</span>
-							</div>
-						</div>
-						<div class="col span_1_of_4 last">
-							<div class="n2g_auto_contenu">
-								<strong>ASSISTANCE 0 KM</strong>
-								<span>Une intervention <br>24h/24 et 7j/7.</span>
-							</div>
-						</div>
 					</div>
 				</div>
 
@@ -351,7 +363,7 @@
 						<dl class="n2g_auto_mentions">
 							<dt>
 								<span>(1)</span>
-								Contrat d’Assurance Auto de Sogessur, d’assistance de Fragonard Assurances (prestations mises en œuvre par Mondial Assistance) et de Défense pénale et recours suite à accident d’Aviva Assurances. Entreprises régies par le Code des assurances. Contrat présenté par Société Générale, dont le siège social est situé 29, boulevard Haussmann (Paris IXe), en sa qualit d'Intermédiaire en assurances, immatriculation ORIAS n° 07 022 493 (orias.fr). Cette offre est valable en France métropolitaine et soumise à des conditions d’éligibilité. Les évènements garantis, les conditions, les limites et exclusions de garantie figurent au contrat.
+								Contrat d’assurance Auto de Sogessur, d’assistance de Fragonard Assurances (prestations mises en œuvre par AWP France SAS, sous le nom commercial Mondial Assistance) et de Défense Pénale et Recours Suite à Accident d’Aviva Assurances. Entreprises régies par le <i>Code des assurances</i>. Contrat présenté par Société Générale, dont le siège social est situé 29, boulevard Haussmann (Paris 10<sup>e</sup>), en sa qualité d'intermédiaire en assurances, immatriculation ORIAS n° 07 022 493 (orias.fr). Cette offre est valable en France métropolitaine et soumise à des conditions d’éligibilité. Les évènements garantis, les conditions, les limites et exclusions de garantie figurent au contrat.
 							</dt>
 							<dt>
 								<span>(2)</span>
@@ -359,13 +371,12 @@
 							</dt>
 							<dt>
 								<span>(3)</span>
-								Le conducteur et les passagers du véhicule assuré bénéficient d’une garantie Responsabilité civile et Défense pénale et Recours suite à accident, sous réserve des dispositions contractuelles. Une franchise « prêt de volant » est susceptible de s’appliquer.
+								Le conducteur et les passagers du véhicule assuré bénéficient d’une garantie Responsabilité civile et Défense Pénale et Recours Suite à Accident, sous réserve des dispositions contractuelles. Une franchise « prêt de volant » est susceptible de s’appliquer.
 							</dt>
 						</dl>
 				</div>
 
 				</div>
-
 
 				<!-- XITI -->
 				<script type="text/javascript">
@@ -374,8 +385,8 @@
 				xtnv = document; //parent.document or top.document or document
 				xtsd = "https://logs128";
 				xtsite = "412253";
-				xtn2 = "253"; // level 2 site ID
-				xtpage = "landing_page::offre_protection::sans_contrat"; //page name (with the use of :: to create chapters)
+				xtn2 = "4"; // level 2 site ID
+				xtpage = "assurance_automobile::uc-auto-simulation"; //page name (with the use of :: to create chapters)
 				xtdi = ""; //implication degree
 				xt_multc = ""; //all the xi indicators (like "&x1=...&x2=....&x3=...")
 				xt_at = ""; //user ID (string)
@@ -386,19 +397,13 @@
 				//-->
 				</script>
 				<script type="text/javascript" src="https://static.societegenerale.fr//pri/xtclicks.js"></script>
-
 				<script type="text/javascript" src="https://static.societegenerale.fr//pri/xtcore.js"></script>
 				<noscript>
-				<img width="1" height="1" alt="" src="https://logs128.xiti.com/hit.xiti?s=412253&s2=253&p=landing_page::offre_protection::sans_contrat&di=&at=&ac=" >
+				<img width="1" height="1" alt="" src="https://logs128.xiti.com/hit.xiti?s=412253&s2=4&p=assurance_automobile::uc-auto-simulation&di=&at=&ac=" >
 				</noscript>
 
 
 				<!---FIN LIVRAISON--->
-
-
-
-
-
 
 
 
@@ -466,6 +471,8 @@
 		<div class="n2g_inhiber_le_flottant_a_gauche"></div>
 	</div>
 </div>
+
+
 
 
 

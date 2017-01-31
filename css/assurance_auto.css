@@ -114,9 +114,15 @@
 		text-transform: uppercase;
 		color: #000000;
 		font-weight: bold;
-		margin-top: 6px;
-    font-size: 32px;
-    line-height: 1.3em;
+		margin-top: 17px;
+    font-size: 24px;
+		line-height: 1.5em;
+	}
+
+	.n2g_auto_wrapper.n2g_auto_carre #n2g_auto_bandeau .n2g_auto_intro h2{
+		margin-top: 10px;
+		font-size: 32px;
+		line-height: 1.3em;
 	}
 
 		#n2g_auto_bandeau .n2g_auto_intro h2 sup{
@@ -321,6 +327,10 @@
 		cursor: pointer;
 	}
 
+	#n2g_auto_avantages a.n2g_auto_button.carre{
+		width: 196px;
+	}
+
 	#n2g_auto_action .n2g_auto_form a.n2g_auto_button.tel{
 		float:left;
 		width: auto;
@@ -450,7 +460,7 @@
 
   .n2g_auto_wrapper.n2g_auto_carre #n2g_auto_avantages .cta_group{
 		height: auto;
-		margin-top: 60px;
+		margin-top: 40px;
 	}
 
 	.n2g_auto_wrapper.n2g_auto_carre #n2g_auto_avantages .n2g_auto_section .col{
